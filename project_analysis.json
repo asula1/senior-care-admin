@@ -1,0 +1,119 @@
+{
+  "project_name": "Senior Care Watch System",
+  "components": {
+    "backend": {
+      "type": "Spring Boot API",
+      "language": "Java",
+      "path": "backend"
+    },
+    "admin-web": {
+      "type": "React Web Application",
+      "language": "JavaScript",
+      "path": "admin-web"
+    },
+    "watch-app": {
+      "type": "Android Wear OS Application",
+      "language": "Kotlin",
+      "path": "watch-app"
+    },
+    "mobile-app": {
+      "type": "Mobile Application",
+      "language": "Unknown",
+      "path": "mobile-app",
+      "status": "Empty directory"
+    }
+  },
+  "file_extensions": {
+    ".html": 1,
+    ".json": 3,
+    ".js": 21,
+    ".css": 1,
+    ".log": 2,
+    "(no extension)": 1,
+    ".gradle": 3,
+    ".old": 1,
+    ".bat": 1,
+    ".md": 1,
+    ".py": 1,
+    ".properties": 3,
+    ".xml": 1
+  },
+  "structure_overview": {
+    "mobile-app": {},
+    "admin-web": {
+      "node_modules": "... (excluded)",
+      "public": {
+        "index.html": 827,
+        "manifest.json": 507
+      },
+      "package-lock.json": 770135,
+      "package.json": 1296,
+      "src": {
+        "contexts": {
+          "AuthContext.js": 2201
+        },
+        "setupProxy.js": 471,
+        "index.js": 730,
+        "theme.js": 1715,
+        "utils": {
+          "websocket.js": 2729
+        },
+        "index.css": 727,
+        "components": {
+          "Layout.js": 7313
+        },
+        "pages": {
+          "NotFound.js": 1151,
+          "SeniorDetail.js": 14871,
+          "VisitSchedule.js": 863,
+          "EmergencyAlerts.js": 15986,
+          "SeniorList.js": 15230,
+          "Login.js": 3499,
+          "Dashboard.js": 15289,
+          "MedicationManagement.js": 992
+        },
+        "App.js": 2283,
+        "services": {
+          "userService.js": 2184,
+          "medicationService.js": 2596,
+          "emergencyService.js": 1939,
+          "healthService.js": 2008,
+          "authService.js": 3900,
+          "visitService.js": 2402
+        }
+      }
+    },
+    "backend": {
+      "server_output.log": 0,
+      "gradle": "... (excluded)",
+      "gradlew": 8706,
+      "build.gradle": 1347,
+      "server.log.old": 16196,
+      "build": "... (excluded)",
+      "gradlew.bat": 2918,
+      "server.log": 2014,
+      "src": {
+        "main": {
+          "resources": "...",
+          "java": "..."
+        }
+      }
+    },
+    "README.md": 3791,
+    "analyze_project_structure.py": 4916,
+    "watch-app": {
+      "gradle_java_home_config2.properties": 38,
+      "gradle_java_home_config.properties": 37,
+      "java_toolchain_config.gradle": 83,
+      "build.gradle": 3611,
+      "src": {
+        "main": {
+          "res": "...",
+          "AndroidManifest.xml": 3764,
+          "java": "..."
+        }
+      },
+      "gradle_java_home.properties": 37
+    }
+  }
+}
